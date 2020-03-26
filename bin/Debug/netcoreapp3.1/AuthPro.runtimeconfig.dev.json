@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Bandar SEBAA\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Bandar SEBAA\\.nuget\\packages"
+    ]
+  }
+}
