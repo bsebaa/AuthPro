@@ -129,6 +129,7 @@ C:\Users\Bandar SEBAA\source\repos\AuthPro\AuthPro\obj\Debug\netcoreapp3.1\AuthP
 C:\Users\Bandar SEBAA\source\repos\AuthPro\AuthPro\obj\Debug\netcoreapp3.1\AuthPro.RazorCoreGenerate.cache
 C:\Users\Bandar SEBAA\source\repos\AuthPro\AuthPro\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
 C:\Users\Bandar SEBAA\source\repos\AuthPro\AuthPro\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\Bandar SEBAA\source\repos\AuthPro\AuthPro\obj\Debug\netcoreapp3.1\Razor\Views\Administration\CreateRole.cshtml.g.cs
 C:\Users\Bandar SEBAA\source\repos\AuthPro\AuthPro\obj\Debug\netcoreapp3.1\Razor\Views\Home\Create.cshtml.g.cs
 C:\Users\Bandar SEBAA\source\repos\AuthPro\AuthPro\obj\Debug\netcoreapp3.1\Razor\Views\Home\Delete.cshtml.g.cs
 C:\Users\Bandar SEBAA\source\repos\AuthPro\AuthPro\obj\Debug\netcoreapp3.1\Razor\Views\Home\Details.cshtml.g.cs
@@ -149,5 +150,5 @@ C:\Users\Bandar SEBAA\source\repos\AuthPro\AuthPro\obj\Debug\netcoreapp3.1\stati
 C:\Users\Bandar SEBAA\source\repos\AuthPro\AuthPro\obj\Debug\netcoreapp3.1\AuthPro.dll
 C:\Users\Bandar SEBAA\source\repos\AuthPro\AuthPro\obj\Debug\netcoreapp3.1\AuthPro.pdb
 C:\Users\Bandar SEBAA\source\repos\AuthPro\AuthPro\obj\Debug\netcoreapp3.1\AuthPro.genruntimeconfig.cache
+C:\Users\Bandar SEBAA\source\repos\AuthPro\AuthPro\bin\Debug\netcoreapp3.1\libman.json
 C:\Users\Bandar SEBAA\source\repos\AuthPro\AuthPro\obj\Debug\netcoreapp3.1\AuthPro.csprojAssemblyReference.cache
-C:\Users\Bandar SEBAA\source\repos\AuthPro\AuthPro\obj\Debug\netcoreapp3.1\Razor\Views\Administration\CreateRole.cshtml.g.cs

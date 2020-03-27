@@ -20,12 +20,13 @@ namespace AuthPro.Controllers
             this.product = product;
         }
 
-
         [AllowAnonymous]
         public IActionResult Index()
         {
             return View(product.List());
         }
+
+
         [AllowAnonymous]
         public ActionResult Details(int id)
         {
@@ -33,14 +34,15 @@ namespace AuthPro.Controllers
             return View(product.FindById(id));
         }
 
+
         [HttpGet]
-      
         public ActionResult Create()
         {
             return View();
         }
+
+
         [HttpPost]
-   
         public ActionResult Create(Product product)
         {
             this.product.Add(product);
@@ -49,10 +51,13 @@ namespace AuthPro.Controllers
 
         }
 
+
         public ActionResult Edit(int id)
         {
             return View(product.FindById(id));
         }
+
+
         [HttpPost]
         public ActionResult Edit(Product pro)
         {
@@ -60,6 +65,7 @@ namespace AuthPro.Controllers
             return RedirectToAction("Index");
         }
 
+       
         public ActionResult Delete(int id)
         {
             return View(product.FindById(id));

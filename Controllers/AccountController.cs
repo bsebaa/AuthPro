@@ -19,13 +19,15 @@ namespace AuthPro.Controllers
             this.userManager = userManager;
             this.signInManager = signInManager;
         }
+
         [AllowAnonymous]
         public IActionResult Register()
         {
             return View();
         }
-        [HttpPost]
+        
         [AllowAnonymous]
+        [HttpPost]
         public async Task<IActionResult> Register(RegisterViewModel model)
         {
             if (ModelState.IsValid)
@@ -58,15 +60,8 @@ namespace AuthPro.Controllers
             return View(model);
         }
 
-        public async Task<IActionResult> Logout()
-        {
-            await signInManager.SignOutAsync();
-            return RedirectToAction("Index","Home");
-        }
-
-
-        [HttpGet]
         [AllowAnonymous]
+        [HttpGet]
         public IActionResult Login(string ReturnUrl)
         {
             ReturnUrl = ReturnUrl ?? Url.Content("~/");
@@ -74,9 +69,8 @@ namespace AuthPro.Controllers
             return View();
         }
 
-
-        [HttpPost]
         [AllowAnonymous]
+        [HttpPost]
         public async Task<IActionResult> Login(LoginViewModel model, string ReturnUrl)
         {
             if (ModelState.IsValid)
@@ -99,6 +93,14 @@ namespace AuthPro.Controllers
             }
             return View(model);
         }
-        
+
+
+        public async Task<IActionResult> Logout()
+        {
+            await signInManager.SignOutAsync();
+            return RedirectToAction("Index", "Home");
+        }
+
+
     }
 }

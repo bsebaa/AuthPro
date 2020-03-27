@@ -19,17 +19,12 @@ namespace AuthPro.Controllers
         }
 
 
-        public IActionResult Index()
-        {
-            return View();
-        }
-
-
         [HttpGet]
         public IActionResult CreateRole()
         {
             return View();
         }
+
 
         [HttpPost]
         public async Task<IActionResult> CreateRole(CreateRoleViewModel model)
